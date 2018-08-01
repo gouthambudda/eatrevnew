@@ -1,0 +1,46 @@
+.jumbotron{
+  background-color: transparent;
+}
+.jumbotron h1,p{
+  text-shadow: 1px 1px white;
+  margin-bottom: 30px;
+  color: black;
+}
+.search-bar{
+    max-width: 500px;
+    float: left;
+}
+.search-bar input{
+    height: 50px;
+}
+.button-container{
+      max-width: 260px;
+      float:left;
+    overflow:hidden;
+}
+.btn{
+    height:50px;
+    background-color:#FF9D00;
+    border-color:#FF9D00;
+}
+.location-form{
+    display:inline-block;
+    border: 5px solid white;
+    overflow: hidden;
+    background-color: white;
+    background-size: contain;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 16px 25px 0 rgba(0, 0, 0, 0.4);
+}
+.input-group-addon{
+    border-right:0;
+    font-size:25px;
+    color: #FF9D00;
+    padding: 0px 8px 0px 8px;
+}
+.form-control{
+    border-left:0;
+    font-size:15px;
+}
+.form-control:focus{
+    border-color:#d2d6de;
+}

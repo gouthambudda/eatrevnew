@@ -1,0 +1,26 @@
+.navbar{
+  background-color: rgba(192, 192, 192,0.1);
+}
+.company-image{
+padding:0px;
+}
+.company-image img{
+height: 40px;
+width:40px;
+margin-top:5px;
+}
+.company-name{
+color: #616264;
+margin-top:0px;
+font-family: 'Baloo Bhaina';
+font-size: 40px;
+padding: 7px 0px 1vw 1.5vw;
+line-height: 50px;
+text-shadow: 1px 1px white;
+}
+a{
+  font-size: 17px;
+  font-weight: 500px;
+  color: black;
+  text-shadow: 1px 1px white;
+}

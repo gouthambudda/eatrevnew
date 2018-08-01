@@ -1,0 +1,27 @@
+<!-- INÍCIO DO CONTEÚDO -->
+<section class="content-header">
+</section>
+
+<section class="content">
+
+  <div class="jumbotron welcome-jumbotron">
+     <h1>Are you Hungry?</h1>
+     <p>
+       Your food is just one click away!
+     </p>
+  <form class="location-form">
+    <div class="input-group search-bar">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-map-marker geolocation-marker white_bg transition_25"></i></span>
+     <input type="text" [(ngModel)]="address" [options]='options' (setAddress)="getAddress($event)" placeholder="Enter your location" (FormatAddress)="getFormattedAddress($event)"
+      (street_number)='street_number=$event' (street)='street=$event' (city)='city=$event' (state)='state=$event' (district)='district=$event'
+      (country)='country=$event' (postal_code)='postal_code=$event' (lat)='lat=$event' (lng)='lng=$event' (adr_address)='adr_address=$event'
+      (name)='name=$event' (place_id)='place_id=$event' (types)='types=$event' (url)='url=$event' (utc_offset)='utc_offset=$event'
+      (vicinity)='vicinity=$event' (photos)='photos=$event' (CountryCodes)='CountryCodes=$event' class="form-control" id="autocomplete" angularGooglePlace />
+    </div>
+    <div class="button-container">
+      <a class="btn btn-primary btn-lg" [routerLink]="['/restaurants']">View Restaurants</a>
+    </div>
+  </form>
+</div>
+</section>
+<!-- FIM DO CONTEÚDO -->
